@@ -43,6 +43,8 @@ postgresql:
 ingress:
   # -- Install ingress?
   enabled: false
+  # -- Add domain
+  domian: metabase.example.com
   # -- Dictionary of ingress annotations
   annotations: {}
   # -- Ingress TLS settings, passed directly to ingress definition
